@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <title>Exercice4JavaScript2</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="d-md-flex">
+      <div class="p-2 mx-2 mt-3 p-3 text-left">
+          <div class="row no-gutters">
+              <div class="p-4 col-12 col-sm-6 col-md-4 bg-success border shadow"><h1>Exercice 4 Javascript 2</h1></div>
+              <div class="p-4 col-6 col-md-8 bg-secondary  border">
+                  <p>Dans le fichier HTML fourni, faire que le bouton RAZ efface les données des champs du formulaire.</p>
+              </div>
+        </div>
+      </div>
+      <div class="p-2 mx-2 mt-3 p-3 bg-danger text-left">
+          <form>
+              <label for="lastname">Votre nom  : </label><input type="text" name="lastname" value="Doe" id="lastname" />
+              <label for="firstname">Votre prenom  : </label><input type="text" name="firstname" value="John" id="firstname" />
+              <label for="city">Votre ville  : </label><input type="text" name="city" value="New York" id="city" />
+              <button onclick="resetForm()" type="button" name="button">RAZ</button>
+          </form>
+      </div>
+    </div> <!-- fin de div pour le group de deux div -->
+  </div>
+  <!--fin de div class container -->
+  <script src="script.js"></script>
+</body>
+
+</html>
